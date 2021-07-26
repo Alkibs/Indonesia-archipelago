@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e8c496;
+}
+.judul {
+    margin: 50px auto;
+    width: 100%;
+    height: auto;
+    background-color: burlywood;
+}
+.judul h1 {
+    text-align: center;
+    line-height: 100px;  
+}
+.content {
+    position: relative;
+}
+.content .map img {
+    display: block;
+    margin: auto;
+    width: 1000px;
+}
+.content .pin img {
+    display: block;
+    position: absolute;
+    right: 57%;
+    top: 46%;
+}
+.content .pin a .img:hover {
+    background-color: red;
+}
+.content .pin2 img {
+    display: block;
+    position: absolute;
+    right: 54%;
+    top: 52%;
+}
