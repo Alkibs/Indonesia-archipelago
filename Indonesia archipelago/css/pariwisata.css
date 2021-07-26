@@ -6,6 +6,12 @@
 body {
     background-color: #e8c496;
 }
+.youtube {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0px 300px;
+}
 .judul {
     margin: 50px auto;
     width: 100%;
