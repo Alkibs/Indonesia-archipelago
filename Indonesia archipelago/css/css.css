@@ -67,14 +67,13 @@ body {
     background-color: #B37B35;
     text-align: center;
     position: relative;
-    padding-top: 2.5%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+    padding: 2.5%;
+    
 }
 .indonesia  {
     color: white;
 }
-.map {
+.indonesia .map {
     width: 100%;
     height: 55vh;
 }
@@ -188,31 +187,121 @@ body {
 .content {
     position: relative;
     width: 100%;
-    height: 112vh;
+    height: 130vh;
     text-align: center;
     padding-top: 3%;
     background-color: #B37B35;
 }
-.content h1 {
+.content h2 {
     color: white;
 }
 .content .map {
     width: 100%;
-    height: 100vh;
+    height: 115vh;
 }
 .content .map img {
     width: 1000px;
 }
-.content .pin img {
+.content .pin {
     position: absolute;
-    top: 50%;
+    top: 43%;
     left: 41%;
 }
 .content .pin a .img:hover {
  
 }
-.content .pin2 img {
+.content .pin2 {
     position: absolute;
-    top: 53%;
-    left: 45%;
+    top: 45%;
+    left: 44%;
+}
+
+@media only screen and (max-width: 480px) {
+    .menu {
+        padding-top: 1%;
+    }
+    .menu img {
+        width: 9vw;
+    }
+    .jumbotron {
+        background-position-x: 50%;
+    }
+    .jumbotron span {
+        font-size: 0.5rem;
+    }
+    .jumbotron span:nth-child(3) {
+        text-align: center;
+        width: 80vw;
+    }
+    .indonesia {
+        height:auto;
+        padding-bottom: 5%;
+    }
+    .indonesia .map {
+        width: 100%;
+        height: 30vh;
+        margin-bottom: 3%;
+    }
+    #logo {
+        position:absolute;
+        right: 5%;
+        width: 85vw;  
+        height: 30vh;
+    }
+    .brotherhood {
+        flex-direction: column;
+        justify-content: start;
+        padding: 7% 0;
+        height: auto;
+        color:white;
+    } 
+    .brotherhood .descBrotherhood {
+        width: 85%;
+        
+        text-align: center;
+    }
+    .brotherhood .descBrotherhood h2 {
+        font-size: 1rem;
+    }
+    .brotherhood img {
+        display: block;
+        width: 40vw;
+        height:30vh;
+        margin-bottom: 10%;
+    }
+    .content {
+        height: auto;
+        padding: 10% 0; 
+    }
+    .content .map {
+        width: 100%;
+        height: 55vh;
+    }
+    .content .map img {
+        width: 100vw;
+        height: 50vh;
+    }
+    .content .pin {
+        position: absolute;
+        top: 50%;
+        left: 38%;
+    }
+    .content .pin2 {
+        position: absolute;
+        top: 52%;
+        left: 43%;
+    }
+    .content .pin img {
+        display: block;
+        width: 4vw;
+        height: 2vh;
+
+    }
+    .content .pin2 img {
+        display: block;
+        width: 4vw;
+        height: 2vh;
+    }
+    
+
 }
